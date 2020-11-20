@@ -64,3 +64,12 @@ if first_array and first_array[0] == 1:
 
 if not second_number:
     print("6")
+
+name = ''
+sku = 'standard'
+stuff = ''
+deploy_params = ['name', 'sku']
+
+if sku not in deploy_params and stuff == '':
+    print('Stuff not in deploy params')
+
